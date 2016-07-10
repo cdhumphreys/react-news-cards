@@ -4,6 +4,8 @@ import Card from './Components/Card';
 
 require('./styles/stylesheet.css');
 
+// import testData from './data/MOCK_DATA.json';
+
 const textData1 = {
   thumbnail: 'https://images.unsplash.com/photo-1464655646192-3cb2ace7a67e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7bd13db3b64ce66833f51169e9e6e5e5',
   colorTheme: 'orange',

@@ -6,7 +6,10 @@ class TextBlock extends React.Component {
       <div className="textBlock">
         <h1>{this.props.content.heading}</h1>
         <h2 style={{color: this.props.colorTheme}}>{this.props.content.subheading}</h2>
-        <p>{this.props.content.content}</p>
+        <div className="paragraphContainer">
+          <p>{this.props.content.content}</p>
+        </div>
+
       </div>
     )
   }

@@ -5,7 +5,9 @@ class Thumbnail extends React.Component {
 
 
     return (
-      <div className="thumbnail" style={{backgroundImage: 'url('+ this.props.src+')'}}>
+      <div className="thumbnailContainer">
+        <div className="thumbnail" style={{backgroundImage: 'url('+ this.props.src+')'}}>
+        </div>
       </div>
     )
   }
